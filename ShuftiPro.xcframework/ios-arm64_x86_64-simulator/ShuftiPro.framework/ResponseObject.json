@@ -596,38 +596,33 @@
         ],
         "pending_steps": {
             "face_view": {
-                "data_to_show": null,
-                "allow_offline": "0",
-                "allow_online": "1",
-                "initial_verification": false,
-                "verification_mode": "any",
-                "backside_proof_required_ml": 0,
-                "required_proofs": [
-                    "proof"
-                ]
-            },
-            "document_view": {
-                "data_to_show": null,
-                "allow_offline": "0",
-                "allow_online": "1",
-                "initial_verification": false,
-                "verification_mode": "any",
-                "backside_proof_required_ml": 0,
-                "required_proofs": [
-                    "proof"
-                ],
-                "show_ocr_form": "0",
-                "selected_type": null,
-                "supported_types": [
-                    "id_card",
-                    "driving_license",
-                    "passport"
-                ],
-                "inputs": [],
-                "ocr_inputs": {},
-                "additional_instruction": [],
-                "backside_proof_required": null
-            }
+                          "data_to_show": null,
+                          "initial_verification": false,
+                          "backside_proof_required_ml": 0,
+                          "required_proofs": [
+                              "proof"
+                          ]
+                      },
+                      "document_view": {
+                          "data_to_show": null,
+                          "initial_verification": false,
+                          "backside_proof_required_ml": 0,
+                          "required_proofs": [
+                              "proof"
+                          ],
+                          "show_ocr_form": "0",
+                          "selected_type": null,
+                          "supported_types": [
+                              "id_card",
+                              "driving_license",
+                              "passport"
+                          ],
+                          "inputs": [],
+                          "ocr_inputs": {},
+                          "additional_instruction": [],
+                          "backside_proof_required": null
+                      }
+           
         },
         "translations": [
             {
